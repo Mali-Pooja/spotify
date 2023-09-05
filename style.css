@@ -1,0 +1,864 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.my-homepage {
+    flex: 1;
+}
+
+.my-footer {
+    background: #181818;
+    height: 70px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.my-footer1 {
+    background: #181818;
+    height: 90px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+.foot1 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.foot2 {
+    margin-top: 10px;
+}
+
+.ny1 {
+    margin-inline: 10px;
+}
+
+.foot2 {
+    margin-top: 10px;
+}
+
+.horizon1 {
+    width: 450px;
+    margin-inline: 8px;
+    border-radius: 8px;
+    height: 4px;
+    background-color: #B3B3B3;
+}
+
+
+
+.my-last-web {
+    margin-inline: 5px;
+}
+
+.greena {
+    background-color: #1ED760;
+    height: 20px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    width: 100vw;
+}
+
+.class1 {
+    overflow-y: scroll;
+    background-color: black;
+    width: 370px;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hor1 {
+    width: 90px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 2.5px;
+    background-color: #C4C4C4;
+}
+
+.class2 {
+    height: 700px;
+    color: white;
+    width: 100vw;
+    overflow-y: scroll;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+}
+
+.cin {
+    display: flex;
+    flex-direction: row;
+}
+
+.spotifyimg {
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.my-home2:hover {
+    background-color: #282828;
+}
+
+.my-home1:hover {
+    background-color: #282828;
+}
+
+.my-home {
+    width: 270px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    background-color: #282828;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.my-home1 {
+    width: 270px;
+    height: 50px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.my-home7 {
+    width: 270px;
+    height: 30px;
+    margin-left: 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.my-home2 {
+    width: 270px;
+    height: 50px;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home-img {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.stic {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    border: none;
+    background: #212121;
+}
+
+.backward {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.forward {
+    margin-top: 20px;
+    margin-right: 950px;
+
+}
+
+.profile>img {
+    margin-left: 2px;
+}
+
+.profile {
+    margin-top: 30px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    background: #0A0A0A;
+    background-size: contain;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+}
+
+.angel {
+    margin-inline: 20px;
+}
+
+.good {
+    color: #FFF;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.boxes {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.liked {
+    margin-top: 15px;
+    width: 350px;
+    height: 80px;
+    border-radius: 4px;
+    margin-inline: 10px;
+    background: #303030;
+    display: flex;
+    align-items: center;
+}
+
+.tet {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.shows {
+
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+    width: 95%;
+    margin-top: 30px;
+}
+
+.show-main,
+.carrd {
+    margin: auto;
+    width: 95%;
+}
+
+.a {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+.show-like {
+    width: 250px;
+    height: 300px;
+    border-radius: 14px;
+    color: white;
+    margin-right: 18px;
+    background: #181818 !important;
+}
+
+.tett {
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+}
+
+.tett1 {
+    color: #B3B3B3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+
+.last {
+    margin-bottom: 60px;
+}
+
+
+
+.class11 {
+    overflow-y: scroll;
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+}
+
+.spotify {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.search1 {
+    width: 205px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+    background-color: #282828;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.home-img1 {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.search2 {
+    width: 205px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search2:hover {
+    background-color: #282828;
+}
+
+.search3 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    letter-spacing: 1.2000000476837158px;
+}
+
+.search4 {
+    width: 205px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.girl {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.horizontal {
+    height: 1px;
+    width: 185px;
+    margin-left: 20px;
+    background-color: #303030;
+}
+
+.section1 {
+
+    height: 400px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #90AEA7 10%, #000);
+}
+
+.section2 {
+    background: #000;
+}
+
+.fim,
+.white-heart {
+    margin-left: 20px;
+    color: #2e3736;
+}
+
+.hori1 {
+    height: 1px;
+    width: 480px;
+    background-color: #2e3736;
+}
+
+.hori3 {
+    height: 1px;
+    width: 300px;
+    background-color: #2e3736;
+}
+
+.hori4 {
+    height: 1px;
+    width: 320px;
+    background-color: #2e3736;
+}
+
+.hori2 {
+    height: 1px;
+    width: 10px;
+    background-color: #2e3736;
+}
+
+.class21 {
+    height: 750px;
+    width: 100vw;
+    overflow-y: scroll;
+}
+
+.imageofpop {
+    margin-top: 20px;
+}
+
+.playbtn {
+    margin-left: 12px;
+}
+
+.goodd {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.188px;
+}
+
+.dualipa {
+    color: #959595;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nost {
+    margin-left: 260px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.grid1 {
+    margin-inline: 20px;
+    width: 1280px;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.grid1:hover {
+    background-color: #212222;
+}
+
+.jim {
+    display: none;
+}
+
+.grid2 {
+    margin-inline: 20px;
+    background-color: #212222;
+    width: 1280px;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+.b{
+    text-decoration:none;
+    color:white;
+}
+
+.inside-sec-2 {
+    margin-top: 70px;
+    color: white;
+}
+
+.bit1 {
+    font-size: 15px;
+}
+
+.min {
+    display: none !important;
+}
+
+.bit2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.bit4 {
+    font-weight: 500;
+}
+
+.my-list7,
+.ny {
+    margin-left: 18px;
+}
+
+.first-box {
+    box-shadow: 2px 12px 120px 2px #2e3736;
+    border-bottom: 1px solid #2e3736;
+}
+
+.nost1 {
+    margin-left: 200px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 430;
+}
+
+.my-hurt {
+    margin-left: 220px;
+    color: #FFF;
+}
+
+.jk {
+    display: none !important;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .my-homepage {
+        width: 100%;
+    }
+
+    .dis {
+        display: none;
+    }
+
+    .spotifyimg {
+        display: none;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+
+    .backward,
+    .forward,
+    .profile,
+    .angel,
+    .hid,
+    .stic {
+        background-color: transparent;
+        display: none;
+    }
+
+
+    .min {
+
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 35px;
+        display: block !important;
+    }
+
+    .my-home {
+        background-color: transparent;
+        color: white;
+    }
+
+    .my-home1 {
+        background-color: transparent;
+        color: white;
+    }
+
+    .ho-im {
+        margin-top: -3px;
+    }
+
+    .mini {
+        display: none;
+    }
+
+    .greena {
+        display: none;
+    }
+
+    .class1 {
+        width: 100%;
+        height: 55px;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        z-index: 1;
+        flex-direction: row;
+        overflow-y: hidden;
+    }
+
+    .class11 {
+        width: 100%;
+        height: 55px;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        z-index: 1;
+        flex-direction: row;
+        overflow-y: hidden;
+    }
+
+    .my-footer1 {
+        background: #181818;
+        height: 110px;
+        color: white;
+        position: fixed;
+        width: 100vw;
+
+    }
+
+    .playbtn {
+        margin-left: 5px;
+    }
+
+    .goodd {
+        white-space: nowrap;
+        /* Prevent text from wrapping */
+        overflow: hidden;
+        /* Hide any overflow */
+        text-overflow: ellipsis;
+        /* Add ellipsis (...) for overflow text */
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .dualipa {
+        white-space: nowrap;
+        /* Prevent text from wrapping */
+        overflow: hidden;
+        /* Hide any overflow */
+        text-overflow: ellipsis;
+        /* Add ellipsis (...) for overflow text */
+        color: #959595;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .jk {
+        display: contents !important;
+    }
+
+    .jk>img {
+        margin-inline: 3px;
+    }
+
+    .jk>i {
+        margin-inline: 3px;
+    }
+
+    .good {
+        color: #FFF;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .boxes {
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .liked {
+        margin-top: 15px;
+        width: 150px;
+        height: 50px;
+        border-radius: 4px;
+        background: #303030;
+        display: flex;
+        align-items: center;
+    }
+
+    .tet {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .shows {
+
+        font-size: 18px;
+        font-weight: 500;
+        margin: auto;
+        width: 95%;
+        margin-top: 18px;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .carrd {
+        margin-left: 10px;
+        width: 100%;
+        white-space: nowrap;
+        display: flex;
+    }
+
+    .scroll-container {
+        width: 100% !important;
+        overflow-x: scroll !important;
+    }
+
+    /* CSS */
+
+    .carrd {
+        white-space: nowrap;
+        box-sizing: border-box;
+
+        width: 250px;
+        /* Adjust this as needed */
+        height: 300px;
+    }
+
+    .category-section-row {
+        width: 100vw;
+        overflow-x: auto;
+        white-space: nowrap;
+        max-height: 400px;
+    }
+
+    .my-list {
+        white-space: nowrap;
+        box-sizing: border-box;
+    }
+
+    .show-like {
+       margin-left:10px;
+        height: 300px;
+        border-radius: 14px;
+        color: white;
+        justify-content: center;
+        align-items: center !important;
+        background: #181818 !important;
+    }
+
+    .tett {
+        text-align:center;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.42px;
+    }
+
+    .tett1 {
+        text-align:center;
+        color: #B3B3B3;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.15px;
+    }
+
+    .dlipa {
+        display: inline-block;
+    }
+
+
+    .class21 {
+        width: 100vw;
+    }
+
+    .my-list71 {
+
+        font-size: 10px;
+        margin-left: -120px;
+
+    }
+
+    .my-list7 {
+
+        font-size: 10px;
+        margin-left: -120px;
+        margin-top: 20px;
+    }
+
+    .bit3 {
+        display: flex;
+        flex: flex-wrap;
+        font-size: 10px;
+    }
+
+    .imageofpop {
+        margin-top: 1px;
+        height: 200px;
+    }
+
+    .inside-sec-2 {
+
+
+        margin-left: -10px !important;
+        margin-top: 70px !important;
+        /* Add some top margin for spacing */
+    }
+
+
+    .bit1 {
+        font-size: 12px;
+        margin-top: -40px;
+    }
+
+
+    .bit2 {
+        display: flex;
+        flex: flex-wrap;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .bit4 {
+        font-weight: 500;
+    }
+
+
+
+    .section1 {
+
+        height: 280px;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, #90AEA7 10%, #000);
+    }
+
+    .jimin {
+        display: inline-block !important;
+    }
+
+    .section2 {
+        width: 100vw;
+    }
+
+    .grid2 {
+        margin-inline: 20px;
+        background-color: #212222;
+        width: 100vw;
+        margin-top: 10px;
+        border-radius: 5px;
+        height: 60px;
+    }
+
+    .pooja {
+        display: flex;
+        justify-content: flex-end !important;
+    }
+}
